@@ -24,7 +24,7 @@ To run server we use command:
 ./server ip_address 
 
 e.g. if using ifconfig we saw ip 172.17.0.2 we write \
-./server 172.17.0.2 \
+./server 172.17.0.2 
 
 2. Node.js \
 To run server we use command: 
@@ -37,13 +37,14 @@ nodejs index.js 172.17.0.2
 3. Sending request
 Servers were tested using command curl. for examples in points 1 and 2: \
 3.1. curl -v -X POST -H "Content-Type: application/json" -d @test_file.json 172.17.0.2:9000 \
-3.2. curl -v -X POST -H "Content-Type: application/json" -d @test_file.json 172.17.0.2:9100 \
+3.2. curl -v -X POST -H "Content-Type: application/json" -d @test_file.json 172.17.0.2:9100 
 
 WARNING
 -------
-It wasn't tested if the servers run on the same image at the same time \
+It wasn't tested if the servers run on the same image at the same time 
 
 # Building servers and image
 
 1. C++ \
+C++ server 
 
