@@ -46,5 +46,6 @@ It wasn't tested if the servers run on the same image at the same time
 # Building servers and image
 
 1. C++ \
-C++ server 
+C++ server uses framework called cpprestsdk that can be found on this url:
+https://github.com/microsoft/cpprestsdk
 
