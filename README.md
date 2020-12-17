@@ -9,14 +9,14 @@ https://hub.docker.com/repository/docker/664296700/rest-server \
 using command: docker pull 664296700/rest-server:first-try \
 
 # Running server
-Servers were written in such way that first you need to run docker image in interactive mode using command: \
+Servers were written in such way that first you need to run docker image in interactive mode using command: 
 
-sudo docker run -it 664296700/rest-server:first-try \
+sudo docker run -it 664296700/rest-server:first-try 
 
-we can exit image at any moment using: exit \
+we can exit image at any moment using: exit 
 
-then we check the ip of the image using: ifconfig \
-and we finally can run server \
+then we check the ip of the image using: ifconfig 
+and we finally can run server 
 
 1. C++ \
 To run server we use command: \
