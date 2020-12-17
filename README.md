@@ -46,6 +46,26 @@ It wasn't tested if the servers run on the same image at the same time
 # Building servers and image
 
 1. C++ \
-C++ server uses framework called cpprestsdk that can be found on this url:
+C++ server uses framework called cpprestsdk that can be found on this url: \
 https://github.com/microsoft/cpprestsdk
 
+there in section wiki are listed commands used for installing this framework on different types of machines.
+
+2. Node.js
+Node.js server was created using Express framework.
+
+Every module and package needed to run those programs is shown in Dockerfile under RUN commands.
+------------------------------------------------------------------------------------------------
+
+3. Docker
+Dockerfile constains list of commands that are used to set up proper image and copy important files.
+To build docker image was used command: \
+
+docker build . -t rest:1.0
+
+later tags were change before uploading image to repository using:
+docker tag 0e5574283393 664296700/rest:first-try
+
+# Additional info
+Project was build and used within OS Ubuntu 18.04. \
+After installing packages and modules for C++ server you may still see problems during compilation such as: "no such file or directory". It can be resolved using command: ldconfig. \
