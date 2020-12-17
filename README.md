@@ -9,7 +9,7 @@ using command: docker pull 664296700/rest-server:first-try
 
 # Running server
 Servers were written in such way that first you need to run docker image in interactive mode using command:
----------------------------------------------------
+
 sudo docker run -it 664296700/rest-server:first-try
 ---------------------------------------------------
 
