@@ -69,3 +69,5 @@ docker tag 0e5574283393 664296700/rest:first-try
 # Additional info
 Project was build and used within OS Ubuntu 18.04. \
 After installing packages and modules for C++ server you may still see problems during compilation such as: "no such file or directory". It can be resolved using command: ldconfig. \
+C++ server uses port 9000. \
+Node.js server uses port 9100.
